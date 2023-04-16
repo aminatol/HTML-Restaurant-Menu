@@ -8,10 +8,19 @@ body {
 
 h1,
 h2 {
+    
     color: darkred;
 }
-
-h3, 
+.dine-in {
+    display:inline-block;
+}
+.take-out{
+    display: inline-block;
+}
+.delivery{
+    display: inline-block;
+}
+h3,
 p,
 li {
     color: green;
@@ -30,6 +39,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
